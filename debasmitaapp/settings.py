@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'pz3*_9=6n799zr=eof$mam)7zf423j081zfjp_*&%#!*p*&r0n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('DJANGO_HOST', 'localhost')]
+ALLOWED_HOSTS = []
 
 
 # Application definition
